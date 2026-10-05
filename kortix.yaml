@@ -1,0 +1,31 @@
+# Kortix starter manifest — agents, skills, memory and connectors as files in one repo.
+# Docs: https://kortix.com/docs
+kortix_version: 2
+project:
+  name: openwork-alternative-starter
+  description: A Kortix starter for teams evaluating an open-source OpenWork alternative.
+
+# Machine sessions boot on.
+sandbox:
+  provider: kortix-cloud
+
+# Models are per-agent, per-session or per-message. Bring your own keys.
+models:
+  default: auto
+
+# Wire the tools the company already runs on; credentials stay server-side.
+connectors: {}
+
+agents:
+  researcher:
+    file: agents/researcher.md
+    connectors: all
+    permissions:
+      # allow | ask | block — down to the arguments of a tool call
+      default: ask
+
+triggers:
+  - slug: weekly-digest
+    type: cron
+    cron: "0 9 * * 1"
+    prompt: Summarize last week's changes and open a change request with the digest.
