@@ -56,7 +56,7 @@ Work reaches the default branch only through a change request that a person appr
 
 ## Self-host your own instance
 
-Kortix self-hosts for free as one Docker Compose stack: the frontend, the API, the LLM gateway, and a Supabase distribution. Agent sessions run on a separate sandbox provider, with Daytona as the default and Platinum and E2B also supported.
+Kortix self-hosts for free as one Docker Compose stack: the frontend, the API, the LLM gateway, and a Supabase distribution. Agent sessions run on a separate sandbox provider, with Platinum as the default and Daytona as a legacy fallback.
 
 Point an A or AAAA record for your domain and for `api.<domain>` at the box, open ports 80 and 443 for the bundled Caddy proxy, then run:
 
