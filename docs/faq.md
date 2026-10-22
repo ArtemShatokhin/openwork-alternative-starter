@@ -8,7 +8,7 @@ Yes. In Kortix, agents, skills, company memory, connector config, and triggers a
 
 ## Can we self-host Kortix?
 
-Yes. Kortix self-hosts for free as one Docker Compose stack: the frontend, the API, the LLM gateway, and a Supabase distribution. Run it on a laptop, a VPS, your VPC, or on-prem, or use Kortix Cloud. Agent sessions run on a separate sandbox provider, with Daytona as the default and Platinum and E2B also supported.
+Yes. Kortix self-hosts for free as one Docker Compose stack: the frontend, the API, the LLM gateway, and a Supabase distribution. Run it on a laptop, a VPS, your VPC, or on-prem, or use Kortix Cloud. Agent sessions run on a separate sandbox provider, with Platinum as the default and Daytona as a legacy fallback.
 
 ## Can we use the models we already pay for?
 
