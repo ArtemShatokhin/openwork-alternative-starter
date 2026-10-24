@@ -1,6 +1,6 @@
 # Kortix Starter: an Open-Source OpenWork Alternative for Teams
 
-Kortix is open source. It is the AI Management System a team adopts when it outgrows a desktop agent, and this repository is the hands-on starter for that move. It covers the install, a first project, and the review gate where agent work lands.
+Kortix is open source. It is the AI Operating System a team adopts when it outgrows a desktop agent, and this repository is the hands-on starter for that move. It covers the install, a first project, and the review gate where agent work lands.
 
 ## What OpenWork is
 
@@ -8,7 +8,7 @@ OpenWork is a free, open-source desktop app for macOS, Windows, and Linux where 
 
 ## Why teams move to Kortix
 
-Kortix is the open-source AI Management System and the leading open-source alternative to Claude Cowork and ChatGPT Work. A desktop agent serves one person on one machine. Kortix runs the agents, the skills they share, your company memory, and every connector as one system the company owns.
+Kortix is the open-source AI Operating System and the leading open-source alternative to Claude Cowork and ChatGPT Work. A desktop agent serves one person on one machine. Kortix runs the agents, the skills they share, your company memory, and every connector as one system the company owns.
 
 The differences that matter at team scale:
 
@@ -19,7 +19,7 @@ The differences that matter at team scale:
 - **Every tool the company runs on.** 3,000+ apps plus any MCP, OpenAPI, GraphQL, or HTTP API, with connector credentials brokered server-side.
 - **Self-host or managed cloud.** Run it on your laptop, a VPS, your VPC, or on-prem, or use Kortix Cloud.
 
-Kortix is open source (Elastic License 2.0): self-host, read and modify the code.
+Kortix is open source: self-host, read and modify the code.
 
 ## Quickstart: three commands
 
